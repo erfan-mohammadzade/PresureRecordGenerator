@@ -1,0 +1,67 @@
+/* General background */
+QWidget {
+    background-color: #f4f7f9;
+    color: #2c3e50;
+    font-family: Segoe UI, sans-serif;
+    font-size: 13px;
+}
+
+/* QLineEdit */
+QLineEdit {
+    background-color: #ffffff;
+    border: 1px solid #a9c5ba;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* QPushButton */
+QPushButton {
+    background-color: #4aa38c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+QPushButton:hover {
+    background-color: #3d927c;
+}
+QPushButton:pressed {
+    background-color: #337b67;
+}
+QPushButton:disabled {
+    background-color: #d0e1dc;
+    color: #aaaaaa;
+}
+
+/* QLabel */
+QLabel {
+    color: #2c3e50;
+}
+
+/* QGroupBox */
+QGroupBox {
+    border: 1px solid #c4d7d1;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 4px;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+/* QDateTimeEdit */
+QDateTimeEdit {
+    background-color: #ffffff;
+    border: 1px solid #a9c5ba;
+    border-radius: 5px;
+    padding: 5px;
+}
+QDateTimeEdit::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 20px;
+    border-left: 1px solid #a9c5ba;
+}
